@@ -1,1 +1,11 @@
 # MaksShiryaev_python_emch_project
+nam1=int(input())
+nam2=int(input())
+nam3=int(input())
+print((nam1+nam2+nam3)/3)
+print((nam1*nam2*nam3)/((nam1*nam2)+(nam2*nam3)+(nam3*nam1)))
+minnam=min(nam1,nam2,nam3)
+maxnam=max(nam1,nam2,nam3)
+midmnam=((nam1+nam2+nam3)-(maxnam+minnam))
+print(midmnam)
+print((maxnam**minnam)/midmnam)
